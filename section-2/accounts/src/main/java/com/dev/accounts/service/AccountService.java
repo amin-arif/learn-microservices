@@ -1,8 +1,6 @@
 package com.dev.accounts.service;
 
-import com.dev.accounts.dto.AccountDto;
 import com.dev.accounts.dto.CustomerDto;
-import jakarta.validation.Valid;
 
 public interface AccountService {
 
