@@ -117,7 +117,7 @@ public class AccountController {
 				.status(HttpStatus.EXPECTATION_FAILED)
 				.body(new ResponseDto(
 						ApplicationConstant.STATUS_417,
-						ApplicationConstant.MESSAGE_417_UPDATE
+						ApplicationConstant.MESSAGE_417_DELETE
 				));
 	}
 }
